@@ -1,0 +1,17 @@
+div {
+    .titulo {
+        @extend %estilosTitulo;
+    }
+}
+.section {
+    div{
+        p{
+            @include textIndumentaria ($color1, $color2);
+        }
+    }
+}
+
+footer{
+    @include textFooter($color3, $color4, $tamanio-letra);
+    
+}

@@ -1,0 +1,18 @@
+/* Indumentaria */
+@mixin textIndumentaria ($color1, $color2) {
+    color: $color1;
+    background-color: $color2;
+    width: 201px;
+    height: 86px;
+    padding: 7px 0px; 
+}
+/* Indumentaria */
+
+/* Footer */
+@mixin textFooter ($color3, $color4, $tamanio-letra) {
+    color: $color3;
+    background-color: $color4;
+    text-align: center;
+    font-size: $tamanio-letra/2; 
+}
+/* Footer */ 
